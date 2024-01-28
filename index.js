@@ -138,7 +138,7 @@
 const mongoose=require("mongoose");
 const express=require("express");
 
-const url="mongodb+srv://vashumaurya121:ca4i9uKkK0oHE1ht@cluster0.hlzf3zu.mongodb.net/"
+const url="mongodb+srv://<username>:<password>@cluster0.hlzf3zu.mongodb.net/"
 
 mongoose.connect(url)
 .then(()=>{
